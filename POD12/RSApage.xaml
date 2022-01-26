@@ -1,0 +1,23 @@
+﻿<Page x:Class="POD12.RSApage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:POD12"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="RSApage" Width="800" Height="600" Background="#FF323232">
+
+    <Grid>
+        <TextBox x:Name="textBoxP" HorizontalAlignment="Left" Height="23" Margin="49,49,0,0" TextWrapping="Wrap" Text="P" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxQ" HorizontalAlignment="Left" Height="23" Margin="288,49,0,0" TextWrapping="Wrap" Text="Q" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxN" HorizontalAlignment="Left" Height="24" Margin="172,98,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxE" HorizontalAlignment="Left" Height="22" Margin="49,156,0,0" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxD" HorizontalAlignment="Left" Height="23" Margin="288,155,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="openText" Content="wczytaj tekst" HorizontalAlignment="Left" Margin="498,49,0,0" VerticalAlignment="Top" Width="108" Click="openText_Click" Height="35"/>
+        <Button x:Name="coding" Content="szyfruj" HorizontalAlignment="Left" Margin="564,98,0,0" VerticalAlignment="Top" Width="106" Click="coding_Click" Height="43"/>
+        <Button x:Name="decoding" Content="odszyfruj" HorizontalAlignment="Left" Margin="564,172,0,0" VerticalAlignment="Top" Width="106" Click="decoding_Click" Height="46"/>
+        <Button x:Name="openEncrypted" Content="wczytaj szyfrogram" HorizontalAlignment="Left" Margin="634,49,0,0" VerticalAlignment="Top" Width="120" Click="openEncrypted_Click" Height="35"/>
+        <Button x:Name="documentation" Content="dokumentacja" HorizontalAlignment="Left" Margin="470,238,0,0" VerticalAlignment="Top" Width="75" Click="documentation_Click"/>
+    </Grid>
+</Page>
