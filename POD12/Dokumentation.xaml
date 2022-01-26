@@ -1,0 +1,16 @@
+﻿<Page x:Class="POD12.Dokumentation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:POD12"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Dokumentation" Width="800" Height="600" Background="#FF323232">
+
+    <Grid>
+        <Label x:Name="label" Content="Dokumentacja" HorizontalAlignment="Left" Margin="262,64,0,0" VerticalAlignment="Top" Foreground="White" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Algorytm RSA opiera się na dwóch wartościach p i q.&#xD;&#xA;n=pq&#x9;phi=(p-1)(q-1)&#x9;e jest względnie pierwsza z phi&#x9;((e * i) - 1) % phi != 0&#xD;&#xA;&#xD;&#xA;e i n stanowią klucz publiczny, a d i n stanowią klucz prywatny.&#xD;&#xA;szyfrowanie: c=(m^e)%n, c-wiadomość zaszyfrowana m-wiadomość jawna &#xD;&#xA;deszyfrowanie: m=(c^d)%n, c-wiadomość zaszyfrowana m-wiadomość jawna&#xD;&#xA;&#xD;&#xA;Algorytm RSA jest realizowany klasą RSA&#xD;&#xA;&#xD;&#xA;Visual Studio 2017&#xD;&#xA;Autor: Agnieszka Gregulec" HorizontalAlignment="Left" Margin="58,166,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="682" Height="400"/>
+
+    </Grid>
+</Page>
